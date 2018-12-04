@@ -89,12 +89,12 @@ angular
 - **Boolean** `mobile`: (optional) enable mobile view - defaults to viewport: 250x250 and boundry: 300x300;
 
 ## Version
-1.2.2
+1.2.3
 
 ### Updates
-- fix source interval time for firefox
-- fix travis build badge
-- add changelog file
+- update Croppie.js v2.6.2
+- add AngularJS v1.6 dependency
+- add Unit Tests
 
 ### Contributors
 

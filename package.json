@@ -8,6 +8,9 @@
     "Orif N. Jr. <orif.zade@gmail.com>"
   ],
   "license": "MIT",
+  "dependencies": {
+    "croppie": "2.6.2"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-concat": "2.6.1",

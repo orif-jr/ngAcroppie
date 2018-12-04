@@ -11,7 +11,7 @@ gulp.task('css', function(cb) {
     pump([
         gulp.src('./bower.json'),
         mainBowerFiles('**/*.css'),
-        concat('ng-croppie.css'),
+        concat('src/ng-croppie.css'),
         gulp.dest('./')
     ], cb);
 });
@@ -20,7 +20,7 @@ gulp.task('css-minify', function(cb) {
     pump([
         gulp.src('./bower.json'),
         mainBowerFiles('**/*.css'),
-        concat('ng-croppie.css'),
+        concat('src/ng-croppie.css'),
         rename({suffix: '.min'}),
         minify({compatibility: 'ie11', keepBreaks: true}),
         gulp.dest('./')
@@ -29,10 +29,10 @@ gulp.task('css-minify', function(cb) {
 
 gulp.task('js', function(cb) {
     pump([
-        gulp.src('ng-croppie.js'),
+        gulp.src('src/ng-croppie.js'),
         rename({suffix: '.min'}),
         uglify(),
-        gulp.dest('./')
+        gulp.dest('./src')
     ], cb);
 });
 

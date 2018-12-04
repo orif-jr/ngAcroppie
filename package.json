@@ -19,14 +19,13 @@
   },
   "scripts": {
     "lint": "gulp lint",
+    "test": "echo \"Error: no test specified\"",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "postchangelog": "git commit -am \"chore(): update changelog\"",
-    "_test": "echo \"Error: no test specified\" && exit 1",
-    "test": "echo \"Error: no test specified\""
+    "postchangelog": "git commit -am \"chore(): update changelog\""
   },
   "main": [
-    "ng-croppie.js",
-    "ng-croppie.css"
+    "src/ng-croppie.js",
+    "src/ng-croppie.css"
   ],
   "keywords": [
     "angular",

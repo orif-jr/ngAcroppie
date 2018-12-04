@@ -8,8 +8,8 @@
   ],
   "description": "An awesome image cropping and rotating module for AngularJS",
   "main": [
-    "ng-croppie.js",
-    "ng-croppie.css"
+    "src/ng-croppie.js",
+    "src/ng-croppie.css"
   ],
   "dependencies": {
     "croppie": "2.5.1"

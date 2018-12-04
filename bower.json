@@ -16,6 +16,9 @@
     "angular-route": "1.6.10",
     "croppie": "2.6.2"
   },
+  "devDependencies": {
+    "angular-mocks": "1.6.10"
+  },
   "overrides": {
     "croppie": {
       "main": [

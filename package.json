@@ -14,17 +14,24 @@
     "croppie": "2.6.2"
   },
   "devDependencies": {
+    "angular-mocks": "1.6.10",
     "gulp": "3.9.1",
     "gulp-concat": "2.6.1",
     "gulp-clean-css": "3.9.3",
     "gulp-main-bower-files": "1.6.2",
     "gulp-rename": "1.2.2",
     "gulp-uglify": "3.0.0",
+    "jasmine-core": "3.1.0",
+    "karma": "2.0.2",
+    "karma-jasmine": "1.1.1",
+    "karma-coverage": "1.1.1",
+    "karma-chrome-launcher": "2.2.0",
     "pump": "3.0.0"
   },
   "scripts": {
-    "lint": "gulp lint",
-    "test": "echo \"Error: no test specified\"",
+    "_lint": "gulp lint",
+    "lint": " eslint src/**/*.js test/unit/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "postchangelog": "git commit -am \"chore(): update changelog\""
   },

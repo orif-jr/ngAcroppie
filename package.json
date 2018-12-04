@@ -9,6 +9,8 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "angular": "1.6.10",
+    "angular-route": "1.6.10",
     "croppie": "2.6.2"
   },
   "devDependencies": {
